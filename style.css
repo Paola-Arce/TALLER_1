@@ -131,7 +131,6 @@ nav ul li a:hover {
         display: none;
     }
 
-
 }
 
 @media (max-width: 1300px) {
@@ -169,3 +168,36 @@ nav ul li a:hover {
     }
 }
 /*End header*/
+
+/*Section Cards*/
+
+.cards{
+    padding-top: 25px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{ 
+    margin: 5px;
+    padding: 30px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
