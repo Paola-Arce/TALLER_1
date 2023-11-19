@@ -228,7 +228,7 @@ nav ul li a:hover {
     padding-top: 50px;
 }
 
-.products h3 {
+.section-title {
     text-transform: uppercase;
     font-size: 26px;
     font-family: var(--section-title-font);
@@ -331,6 +331,124 @@ nav ul li a:hover {
     .banner-content{
         flex-direction: column;
     }
-    
 }
 /*End Banner*/
+
+/*Review-Section*/
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.review-card {
+    width: 800px;
+}
+
+.review-card h5 {
+    font-size: 25px;
+    margin-bottom:20px ;
+}
+
+@media (max-width: 800px) {
+
+    .review-card {
+        width: 96%;
+    }
+}
+/*End Review-Section*/
+
+/*Form Section*/
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        flex-direction: column;
+        background-image: url(./recursos/images/contact_g.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--light-color);
+        padding: 50px;
+        width: 800px;
+    }
+
+    .section-title-contact {
+        text-transform: uppercase;
+        font-size: 26px;
+        font-family: var(--section-title-font);
+        border-bottom: 1px solid var(--secondary-color);
+        margin-bottom: 25px;
+        color: var(--light-color);
+    }
+
+    .contact-input {
+        width: 100%;
+        height: 40px;
+        margin: 10px 0px;
+        padding: 10px;
+        background-color: transparent;
+        margin-bottom: 25px;
+        box-shadow: none;
+        border: 1px solid var(--light-color);
+        color: var(--light-color);
+    }
+
+    .contact-textarea {
+        width: 100%;
+        height: 140px;
+        background-color: transparent;
+        margin: 10px 0px;
+        padding-bottom: 10px;
+        border: 1px solid var(--light-color);
+        color:var(--light-color);
+        resize: none; 
+    }
+
+    .contact-input::placeholder{
+        color: var(--light-color);
+    }
+    
+    .contact-input::-moz-placeholder {
+        margin: 10px 0px;
+    }
+    
+    .contact-textarea::placeholder{
+        color: var(--light-color);
+    }
+
+    .contact-textarea::-moz-placeholder{
+        color: var(--light-color);
+    }
+
+    .contact-btn {
+        color: var(--light-color);
+        padding: 15px 50px;
+        border: 2px solid var(--secondary-color);
+        background-color: var(--secondary-color);
+        text-decoration: none;
+        max-width: 200px;
+        border-radius: 50px;
+        margin-top: 35px;
+    }
+
+    .contact-btn:hover {
+        color: var(--secondary-color);
+        background-color: transparent;
+        cursor: pointer;
+    }
+/*End Form Section*/
+
+/*Footer*/
+
+/*End Footer*/
